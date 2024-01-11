@@ -1,0 +1,106 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi there",
+                "How are you",
+                "Is anyone there?",
+                "Hey",
+                "Hola",
+                "Hello",
+                "Good day"
+            ],
+            "responses": [
+                "Hello",
+                "Good to see you again",
+                "Hi there, how can I help?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Nice chatting to you, bye",
+                "Till next time"
+            ],
+            "responses": [
+                "See you!",
+                "Have a nice day",
+                "Bye! Come back again soon."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "chatbot_intro",
+            "patterns": [
+                "What is a chatbot?",
+                "Explain chatbots to me",
+                "Tell me about chatbots"
+            ],
+            "responses": [
+                "A chatbot is a computer program designed to simulate conversation with human users, especially over the internet. They are often used to provide information, answer queries, or assist with tasks in a conversational manner.",
+                "Chatbots are software applications that use natural language processing to engage in conversations with users. They can be programmed to perform various tasks, from answering questions to assisting with transactions.",
+                "In simple terms, a chatbot is a program that interacts with users through text or voice, providing a conversational interface for information retrieval or task execution."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "chatbot_types",
+            "patterns": [
+                "What are the types of chatbots?",
+                "Tell me about different chatbot types",
+                "List chatbot categories"
+            ],
+            "responses": [
+                "Chatbots can be categorized into rule-based and AI-based (artificial intelligence) chatbots. Rule-based chatbots follow predefined rules, while AI-based chatbots use machine learning to improve their responses over time.",
+                "Common categories of chatbots include rule-based and AI-powered chatbots. Rule-based chatbots follow specific instructions, while AI-based chatbots can learn from interactions and improve their performance.",
+                "Chatbots are typically classified into rule-based and AI-based types. Rule-based chatbots rely on predefined rules, while AI-based chatbots leverage machine learning to enhance their conversational abilities."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "chatbot_training",
+            "patterns": [
+                "How do you train a chatbot?",
+                "Explain the training process of chatbots",
+                "Tell me about training chatbots"
+            ],
+            "responses": [
+                "Training a chatbot involves providing it with a dataset of conversations and responses. Machine learning algorithms are then used to enable the chatbot to understand patterns and generate appropriate responses during interactions.",
+                "Chatbots are trained using datasets containing examples of conversations and appropriate responses. The training process involves using machine learning algorithms to help the chatbot understand context, language nuances, and generate accurate replies.",
+                "The training of a chatbot includes exposing it to conversation datasets, allowing the machine learning algorithms to learn patterns and generate contextually relevant responses."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "chatbot_improvement",
+            "patterns": [
+                "How can you improve a chatbot?",
+                "Tips for enhancing chatbot performance",
+                "Ways to make chatbots better"
+            ],
+            "responses": [
+                "To enhance a chatbot, continuous feedback and data collection are crucial. Regularly update the chatbot's knowledge base, refine its responses based on user interactions, and incorporate user feedback to improve overall performance.",
+                "Improving a chatbot involves analyzing user interactions, updating its knowledge base, and refining its responses over time. User feedback is valuable for making necessary adjustments and ensuring the chatbot evolves with user needs.",
+                "Chatbots can be improved by regularly updating their knowledge base, refining responses based on user interactions, and incorporating user feedback to enhance overall performance."
+            ],
+            "context": [
+                ""
+            ]
+        }
+    ]
+}
